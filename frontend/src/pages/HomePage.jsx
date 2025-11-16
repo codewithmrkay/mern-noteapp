@@ -4,7 +4,7 @@ import RateLimitUi from '../components/RateLimitUi'
 import { toast } from "react-hot-toast"
 import LoadingUi from '../components/LoadingUi'
 import NotesGrid from '../components/NotesGrid'
-import DontHaveNote from '../components/dontHaveNote'
+import DontHaveNote from '../components/DontHaveNote'
 import api from '../utils/axios.js'
 const HomePage = () => {
   const [IsRateLimit, setIsRateLimit] = useState(false)
