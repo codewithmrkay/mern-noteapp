@@ -1,0 +1,33 @@
+{<----- backend ------>}
+1>create frontend and backend 
+2>inside backend initialize new node js project or npm package
+3>install express(14.18.2) and nodemon
+4>change type to module , change dev script : nodemon file.js
+5>import express , listen on port , start server
+6>create src --> all files must inside it (server.js, controller , routes)
+7>create routes for REST API 
+8>controller for --> controll each method
+9>update all path like src/server.js and all..
+10>install mongoose,get connection string , write config/db.js clean funtion
+11>install dotenv , call config() , see undefined things 
+12>create schema , inside models/name.js
+13>create model of this schema and export it
+14>creating get, post is easy but want update or delete :check req.params.id by mongoose inbuld mehthod
+15>what is api  , middleware , actual difference 
+16>learn ratelimiter , login ,create database , redis , middleware:check per user request , config:no of limit , 
+
+{----- frontend ------}
+1>vite react install all
+2>install react-router , react-hot-toast , set <BrowserRouter>
+3>in App set <Router/> and <Route/> (test with Requestly)
+4>use tailwind , daisyui , theme is op , lucid-react , axios best than fetch
+5>cors middleware , 
+
+{-----extra------}
+digital bg : bg ibelink
+
+{------ deployment ------}
+at root create package.json and build command to install dependency for
+frontend and backend rather than keeping same
+// "build":"npm i --prefix backend && npm i --prefix frontend"
+// add "npm run build --prefix frontend"
