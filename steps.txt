@@ -31,3 +31,4 @@ at root create package.json and build command to install dependency for
 frontend and backend rather than keeping same
 // "build":"npm i --prefix backend && npm i --prefix frontend"
 // add "npm run build --prefix frontend"
+.env add Node_env = production and write proper __dirname , join , 
